@@ -16,7 +16,7 @@ const Routes = () => (
       <Route exact path="/">
         <Redirect to="/video" />
       </Route>
-      <Route path="/video" exact component={Video} />
+      <Route path="/photo" exact component={Photo} />
       <Route path="/video" exact component={Video} />
     </Switch>
   </Suspense>
